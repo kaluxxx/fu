@@ -20,7 +20,7 @@ import sabre from '../assets/images/sabre.png';
                 <!--center the image horizontaly and verticaly  -->
                 <div class="relative w-full pt-[100%]"></div>
                 <img src={title.src} alt="title"
-                     class="absolute left-0 right-0 top-[17.5%] w-1/2 mx-auto"/>
+                     class="absolute left-0 right-0 top-[17.5%] w-1/2 mx-auto title"/>
                 <div class="absolute left-0 right-0 top-[47.5%] md:top-[50%] mx-auto w-2/3 flex justify-around gap-4 p-4">
                     <a href="https://t.me/pumpfun" target="_blank" class="socials transition-all">
                         <img src={x.src} alt="x" class="w-24 md:w-36"/>
@@ -164,6 +164,15 @@ import sabre from '../assets/images/sabre.png';
         }
     }
 
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
     @keyframes pulse {
         0% {
             transform: scale(1);
@@ -184,6 +193,9 @@ import sabre from '../assets/images/sabre.png';
         animation: pulse 2s linear infinite;
     }
 
+    .title {
+        animation: fadeIn 3s linear;
+    }
     .socials {
         animation: pulse 3s linear infinite;
     }
