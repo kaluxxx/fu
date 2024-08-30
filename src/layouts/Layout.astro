@@ -43,6 +43,9 @@ const { title } = Astro.props;
 
 	play.addEventListener('click', () => {
 		audio.play();
+		window.location.href = "/home";
 	});
+
+	audio.play();
 
 </script>

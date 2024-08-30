@@ -1,0 +1,238 @@
+---
+import Layout from '../layouts/Layout.astro';
+import title from '../assets/images/title.png';
+import bullish from '../assets/images/bullish.svg';
+import x from '../assets/images/x.svg';
+import tg from '../assets/images/tg.svg';
+import tron from '../assets/images/tron-trx-logo.webp';
+import cat from '../assets/images/cat.svg';
+import nuage1 from '../assets/images/nuage1.svg';
+import nuage2 from '../assets/images/nuage2.svg';
+import nuage3 from '../assets/images/nuage3.svg';
+import nuage4 from '../assets/images/nuage4.svg';
+import nuage5 from '../assets/images/nuage5.svg';
+import sabre from '../assets/images/sabre.svg';
+import chart from '../assets/images/chart.png';
+import dextools from '../assets/images/dextools.png';
+---
+
+<Layout title="Fu The Meme Coon">
+    <main class="overflow-hidden relative bg-black">
+        <div class="relative">
+            <section id="bg-image-1" class="relative bg-center bg-contain bg-no-repeat flex flex-col justify-end">
+                <!--center the image horizontaly and verticaly  -->
+                <div class="relative w-full pt-[100%]"></div>
+                <button
+                        id="play"
+                        class="hidden w-[50px] h-[50px] md:w-[100px] md:h-[100px] flex items-center justify-center absolute mx-auto top-0 left-0 right-0 mt-12 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24" fill="#ffffff"
+                         class="hidden md:block icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="#ffffff"
+                         class="block md:hidden icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z"/>
+                    </svg>
+                </button>
+                <img src={title.src} alt="title"
+                     class="absolute left-0 right-0 top-[17.5%] w-1/2 mx-auto title"/>
+                <div class="absolute left-0 right-0 top-[47.5%] md:top-[50%] mx-auto w-2/3 flex items-center justify-around gap-4 p-4">
+                    <a href="https://x.com/fuontron" target="_blank" class="flip transition-all">
+                        <img src={x.src} alt="x" class="w-24 md:w-36"/>
+                    </a>
+                    <a href="#" target="_blank" class="cta transition-all">
+                        <img src={chart.src} alt="x" class="w-24 md:w-36"/>
+                    </a>
+                    <a href="https://t.me/fuontrx" target="_blank" class="flip transition-all">
+                        <img src={tg.src} alt="tg" class="w-24 md:w-36"/>
+                    </a>
+                </div>
+            </section>
+            <div class="absolute left-0 right-0 transform -translate-y-[40%] w-full">
+                <img src={bullish.src} alt="bullish" class="w-full mx-auto"/>
+            </div>
+            <section class="bg-black p-4 text-2xl text-white text-center pb-12 md:pb-36">
+                <div class="flex items-center gap-4 mt-24 md:mt-72">
+                    <div class="relative flex flex-col gap-4 w-full md:w-1/2 mx-auto">
+                        <img src={nuage3.src} alt="nuage3" class="pulse w-1/4 ml-auto mr-32"/>
+                        <img src={nuage2.src} alt="nuage2" class="pulse w-1/3 mx-auto"/>
+                        <img src={nuage1.src} alt="nuage1" class="pulse w-1/2 mx-auto"/>
+                    </div>
+                    <div class="flex flex-col gap-4 w-full md:w-1/2 mx-auto">
+                        <img src={cat.src} alt="cat" class="w-full"/>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 w-full md:w-2/3 mx-auto">
+                    <p class="text-[#E42332] text-4xl">$FU: The King of Cats is Taking Over the Memecoin World!</p>
+                    <div class="bg-[#E42332] p-4 rounded-2xl">
+                        <p>Once upon a time, there was a majestic Maine Coon named Fu,
+                            the undisputed king of cats on the Internet. With his silky long fur and piercing eyes, he
+                            captivated everyone who crossed his path.</p>
+                    </div>
+                    <div class="bg-[#E42332] p-4 rounded-2xl">
+                        <p>One day, while exploring the web, Fu discovered the world of cryptocurrencies. Inspired by
+                            memecoins, he decided to launch $FU, a digital currency that combines the humor of memes
+                            with the elegance of Maine Coons.</p>
+                    </div>
+                    <div class="bg-[#E42332] p-4 rounded-2xl">
+                        <p>$FU is more than just a cryptocurrency; it’s a celebration of Internet culture and cat love.
+                            Holders are part of a community dedicated to Fu, with airdrops, meme contests, and charity
+                            initiatives for animals.</p>
+                    </div>
+                    <div class="bg-[#E42332] p-4 rounded-2xl">
+                        <p>Join Fu’s kingdom and become a member of the $FU Army. Together, let’s make the king of cats
+                            rule the cryptocurrency world. Meow loud, laugh harder, and let Fu guide you to a new era of
+                            digital prosperity!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="bg-image-2"
+                     class="relative bg-center bg-contain md:bg-cover bg-no-repeat flex flex-col justify-end py-12 md:py-36">
+                <div class="relative w-full pt-[100%]"></div>
+                <div class="w-full md:w-auto absolute -bottom-[25%] md:-bottom-[12%] left-[5%] flex flex-col justify-center items-center text-[#D39937] p-4 text-3xl md:text-7xl">
+                    <p>TOTAL SUPPLY 1B</p>
+                    <p>DEV 8.25%</p>
+                    <p>FAIRLAUNCH 91.75%</p>
+                </div>
+                <div class="absolute -bottom-[70%] md:-bottom-[20%] right-0 flex flex-col justify-center gap-4 p-4">
+                    <img src={sabre.src} alt="sabre" class="move-saber w-3/6 md:w-[400px] ml-auto mr-24"/>
+                    <div class="relative flex flex-col gap-4 w-full h-[100px] mx-auto">
+                        <img src={nuage4.src} alt="nuage4"
+                             class="pulse absolute w-1/5 right-[10%] bottom-[110%] md:bottom-[120%]"/>
+                        <img src={nuage5.src} alt="nuage5"
+                             class="pulse absolute w-1/6 right-[30%] md:top-[50%] md:bottom-32"/>
+                    </div>
+                </div>
+            </section>
+            <section id="bg-image-3"
+                     class="min-h-screen relative bg-center bg-contain md:bg-cover bg-no-repeat flex flex-col justify-end mt-36 md:mt-72 pt-36 md:pt-36">
+                <div class="relative w-full pt-[100%]"></div>
+            </section>
+            <div class="flex flex-col gap-4 w-full md:w-2/3 mx-auto -mt-12 md:mt-24 p-4">
+                <div class="bg-[#E42332] p-4 rounded-2xl">
+                    <ul class="text-white text-center text-3xl">
+                        <li>create the hype</li>
+                        <li>sunpump stealth launch</li>
+                        <li>sunswap listing</li>
+                        <li>trendings 6h</li>
+                        <li>ads 10K views</li>
+                        <li>we reveal famous crypto influencer on board</li>
+                        <li>3 big KOLS</li>
+                        <li>we start raiding & shilling</li>
+                        <li>cmc cg fast track</li>
+                        <li>apply to list on CEX</li>
+                    </ul>
+                </div>
+            </div>
+            <section id="bg-image-4"
+                     class="relative bg-center bg-contain bg-no-repeat flex flex-col justify-end w-full">
+                <div class="relative w-full pt-[48%]"></div>
+                <div class="absolute -bottom-[10%] md:bottom-[5%] left-[10%] right-0 flex justify-center gap-4 p-4">
+                    <a href="https://x.com/fuontron" target="_blank" class="socials transition-all">
+                        <img src={x.src} alt="x" class="w-16 md:w-36"/>
+                    </a>
+                    <a href="https://t.me/fuontrx" target="_blank" class="socials transition-all">
+                        <img src={tg.src} alt="tg" class="w-16 md:w-36"/>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div class="fixed w-full right-4 bottom-4  mr-4 flex justify-end">
+            <div class="border-lg w-[100px] h-[100px] rounded-lg flex justify-center items-center gap-4">
+                <a href="#" target="_blank" class="socials transition-all w-full">
+                    <img src={tron.src} alt="tron" class="w-full"/>
+                </a>
+                <a href="#" target="_blank" class="socials transition-all w-full">
+                    <img src={dextools.src} alt="dextools" class="w-full"/>
+                </a>
+            </div>
+        </div>
+    </main>
+</Layout>
+
+<style>
+    #bg-image-1 {
+        background-image: url('../assets/images/dojo.svg');
+    }
+
+    #bg-image-2 {
+        background-image: url('../assets/images/tokenomics.svg');
+    }
+
+    #bg-image-3 {
+        background-image: url('../assets/images/roadmap.svg');
+    }
+
+    #bg-image-4 {
+        background-image: url('../assets/images/socials.svg');
+    }
+
+    @keyframes moveSaber {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes flip {
+        0% {
+            transform: rotateY(0deg);
+        }
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .move-saber {
+        animation: moveSaber 2s linear infinite;
+    }
+
+    .flip {
+        animation: flip 4s linear infinite;
+    }
+
+    .pulse {
+        animation: pulse 2s linear infinite;
+    }
+
+    .title {
+        animation: fadeIn 3s linear;
+    }
+
+    .socials, .cta {
+        animation: pulse 3s linear infinite;
+    }
+
+    .socials:hover {
+        display: inline-block;
+        animation: flip 3s linear infinite;
+    }
+</style>
